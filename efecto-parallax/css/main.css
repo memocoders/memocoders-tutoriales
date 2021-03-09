@@ -1,0 +1,59 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13;
+}
+
+.contenedor{
+    max-width: 960px;
+    margin: auto;
+}
+
+.bloque h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    font-size: 200px;
+    line-height: 700px;
+}
+
+.bloque h2{
+    padding: 30px;
+}
+
+.bloque p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.bloque.parallax{
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.parallax.gradient-1{
+    background-image: url(/3.efect-background-css/hack34_parallax/img/cultura_paisajeiluminado_landuum5.jpg);
+    background-attachment: fixed;
+}
+
+.parallax.gradient-2{
+    background-image: url(/3.efect-background-css/hack34_parallax/img/paisaje_catarata.jpg);
+    background-attachment: fixed;
+}
+
+.parallax.gradient-3{
+    background-image: url(/3.efect-background-css/hack34_parallax/img/paisaje_laguna.jpg);
+    background-attachment: fixed;
+}
+
+#bloque-2 h1{
+ color: rgb(235, 78, 144,92);
+}
+
+#bloque-3 h1{
+ color: black;
+}
