@@ -1,0 +1,224 @@
+/*reset all*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+/**/
+.container
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*content-main*/
+.content-main{
+    width: 100%;
+    height: 88vh;
+    background-color: rgb(119, 119, 122);
+}
+
+
+/*content-section*/
+.content-section
+{
+    flex-flow: row wrap;
+}
+
+.asider{
+    justify-content: space-between;
+    width: 3%;
+    height: 100vh;
+    background-color:  #f2f2f2;
+}
+
+.asider-icons{
+    height: 90%;
+    justify-content: space-around;
+    /* border: hotpink 1px solid; */
+}
+
+.detail-main
+{
+    width: 97%;
+    height: 100vh;
+    background-color: springgreen;
+}
+
+
+
+.details-song{
+    flex-flow:column wrap ;
+    width: 100%;
+    height: 50vh;
+    background-color: #4e4e4e;
+}
+
+.song-page{
+    width: 20%;
+    height: 40vh;
+    background-color: burlywood;
+}
+
+.song-page img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.song-info{
+    width: 70%;
+    height: 40vh;
+    /* background-color: chartreuse; */
+}
+
+.container.song-tittle p
+{
+    color: white;
+    margin: 2px;
+}
+
+.tittle{
+    font-size: 1.9em ;
+    margin-bottom: 20px;
+}
+
+.song-tittle
+{
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    /* background-color: cornsilk; */
+}
+
+.song-options
+{
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 20%;
+    /* background-color: darkgreen; */
+}
+
+.song-options i{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*content playlist*/
+.detail-playlist{
+    width: 100%;
+    height: 50vh;
+    background-color:white;
+
+}
+
+.detail-playlist ul{
+    margin:10px 0px 5px 0px;
+
+}
+
+.playlist-element{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 99%;
+    height: 7vh;
+    /* border: yellowgreen 1px solid; */
+}
+
+.paragrah-container{
+    flex-flow: row;
+    /* border: 1px solid greenyellow; */
+    width:100% ;
+}
+
+.container.paragrah-container p{
+    width: 100%;
+    /* border: red 1px solid; */
+    padding: 12px 0px 10px 12px ;
+}
+
+/* .container.paragrah-container p:nth-child(even){
+    
+} */
+
+li:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+.border-text{
+    border: black 1px solid;
+    color: grey;
+    font-size: 0.7em;
+}
+
+/*################### content-action###########################*/
+
+.controls{display: flex;}
+.action-main
+{
+    width: 100%;
+    height:12vh;
+    background-color:rgba(61, 100, 158, .9);
+}
+
+.action-details{
+    justify-content: flex-start;
+    flex-basis: 70%;
+    /* border:red 1px solid; */
+}
+
+.details-img{
+   width: 5%;
+   /* border: blue 1px solid; */
+   padding: 5px;
+}
+
+.details-info{
+    width: 95%;
+    flex-flow: column;
+    justify-content: center;
+    /* border: springgreen 1px solid; */
+}
+
+.details-info  p{
+    color: white;
+}
+
+.details-img img{
+    /* border: seagreen 2px solid; */
+    width: 100%;
+    height: 100%;
+}
+.action-controlers{
+    flex-basis: 30%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    /* border: royalblue 1px solid; */
+}
+
+.controlers-icon{
+    justify-content: space-around;
+    width: 100%;
+    /* border: yellowgreen 1px solid; */
+}
+
+.controlers-icon i{
+    color: white;
+}
+
+
