@@ -6,8 +6,19 @@
 Repositorio que contiene proyectos pequeños haciendo uso de html5, css3, mediaquerys y flexbox, conforme se logra aprender 
 las tecnologias necesrarias para full-stack, los proyectos tambien seran mas complejas
 
->  Efect Parrallax 
+## Vinillo Music
 
-Es una diseño web que logra generar el efecto parallax haciendo uso de  html5 y css3 solamente.
+Pagina web que simula un reproductor de musica, sin funcionalidad.
 
-> 
+## Efecto Parallax
+
+Pagina web que logra simular el efecto parallax con imagenes de fondo
+
+## Galery Flex
+
+Es una pagina web que muestra imagenes  capaces de adaptarse a todo tipo de pantalla
+
+## Web Response
+
+Pagina web responsiva de una sola vista.
+ 
